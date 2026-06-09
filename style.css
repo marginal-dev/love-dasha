@@ -265,3 +265,34 @@ button:hover {
   }
 
 }
+@media (max-width: 600px) {
+  .cat-pic {
+    width: 55px !important;
+    height: 55px !important;
+  }
+
+  .c1 {
+    top: -25px !important;
+    left: 8px !important;
+  }
+
+  .c2 {
+    top: -25px !important;
+    right: 8px !important;
+  }
+
+  .c3 {
+    bottom: -25px !important;
+    left: 8px !important;
+  }
+
+  .c4 {
+    bottom: -25px !important;
+    right: 8px !important;
+  }
+
+  .card,
+  #finalBox {
+    z-index: 9999 !important;
+  }
+}
