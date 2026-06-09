@@ -29,8 +29,13 @@ body {
   animation: floatCat 4s infinite ease-in-out;
 }
 
-.c1 { top: 6%; left: 5%; }
-.c2 { top: 6%; right: 5%; animation-delay: 1s; }
+.c1 { top: 1%; left: 3%; }
+
+.c2 {
+  top: 1%;
+  right: 3%;
+  animation-delay: 1s;
+}
 .c3 { bottom: 6%; left: 5%; animation-delay: 2s; }
 .c4 { bottom: 6%; right: 5%; animation-delay: 1.5s; }
 
@@ -236,4 +241,27 @@ button:hover {
   .big-heart {
     font-size: 65px;
   }
+}
+@media (max-width: 600px) {
+
+  .c1 {
+    top: 0;
+    left: 5px;
+  }
+
+  .c2 {
+    top: 0;
+    right: 5px;
+  }
+
+  .c3 {
+    bottom: 5px;
+    left: 5px;
+  }
+
+  .c4 {
+    bottom: 5px;
+    right: 5px;
+  }
+
 }
