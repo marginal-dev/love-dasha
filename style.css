@@ -12,14 +12,12 @@ body {
   justify-content: center;
   align-items: center;
 }
-
 .cat-bg {
   position: fixed;
   inset: 0;
-  z-index: 0;
+  z-index: -1;
   pointer-events: none;
 }
-
 .cat-pic {
   position: absolute;
   width: 110px;
@@ -73,7 +71,7 @@ body {
 
 .card {
   position: relative;
-  z-index: 10;
+  z-index: 100;
   width: 440px;
   max-width: 90%;
   padding: 35px;
